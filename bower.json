@@ -1,0 +1,7 @@
+{
+    "name": "canvasify",
+    "version": "0.1.0",
+    "dependencies": {
+        "qunit" : ">=1.12.0"
+    }
+}
