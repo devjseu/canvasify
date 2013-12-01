@@ -3,7 +3,7 @@
  */
 function onReady() {
     "use strict";
-	canvas.canvasifyImages();
+    canvas.canvasifyImages();
 }
 
 /**
@@ -12,7 +12,7 @@ function onReady() {
  */
 var readyStateCheckInterval = setInterval(function () {
     if (document.readyState === "complete") {
-        onReady();
         clearInterval(readyStateCheckInterval);
+        onReady();
     }
 }, 10);
