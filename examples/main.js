@@ -3,6 +3,7 @@
  */
 function onReady() {
     "use strict";
+	canvas.canvasifyImages();
 }
 
 /**
